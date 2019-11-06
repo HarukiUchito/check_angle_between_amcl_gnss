@@ -1,0 +1,8 @@
+map_frame_id: map
+gps_frame_id: gps
+amcl_topic: /org_amcl_pose
+navsatfix_topic: /navsatfix_rtklib
+
+dump_file_path_amcl: /home/uchiito-h/catkin_ws/src/check_angle_between_amcl_gnss/dump/amcl.txt
+dump_file_path_navsatfix: /home/uchiito-h/catkin_ws/src/check_angle_between_amcl_gnss/dump/navsatfix_measurements.txt
+dump_file_path_gnss_lla: /home/uchiito-h/catkin_ws/src/check_angle_between_amcl_gnss/dump/gnss_lla.txt
